@@ -13,6 +13,7 @@
     <PackageId>Pure.Primitives.Abstractions</PackageId>
     <RootNamespace>Pure.Primitives.Abstractions</RootNamespace>
     <AssemblyName>Pure.Primitives.Abstractions</AssemblyName>
+    <Version>0.1.0</Version>
     <Authors>Dmitry Kurochkin</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives</PackageProjectUrl>
