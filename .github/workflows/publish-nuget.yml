@@ -1,0 +1,26 @@
+name: Build and Deploy
+
+on:
+  push:
+    tags:
+      - '*.*.*'
+
+jobs:
+  build:
+    name: Build Package
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./src
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 9.x.x
+    - name: Build
+      run: dotnet build --configuration Release
+    - name: Package
+      run: dotnet pack --no-restore --no-build --configuration Release -p:PackageVersion=${{ github.ref_name }} --output .
+    - name: Publish
+      run: dotnet nuget push *.nupkg -s https://nuget.pkg.github.com/kudima03/index.json -k ${{ secrets.NUGET_KEY }}
