@@ -9,4 +9,14 @@
     <InternalsVisibleTo Include="Pure.Primitives" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <PackageId>Pure.Primitives.Abstractions</PackageId>
+    <RootNamespace>Pure.Primitives.Abstractions</RootNamespace>
+    <AssemblyName>Pure.Primitives.Abstractions</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
 </Project>
