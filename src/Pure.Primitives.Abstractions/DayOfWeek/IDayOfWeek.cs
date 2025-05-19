@@ -1,6 +1,6 @@
-﻿using Pure.Primitives.Number.Base;
+﻿using Pure.Primitives.Abstractions.Number;
 
-namespace Pure.Primitives.DayOfWeek;
+namespace Pure.Primitives.Abstractions.DayOfWeek;
 
 public interface IDayOfWeek
 {

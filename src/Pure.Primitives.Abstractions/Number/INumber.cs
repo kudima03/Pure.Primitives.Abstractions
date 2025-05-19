@@ -1,4 +1,4 @@
-﻿namespace Pure.Primitives.Number.Base;
+﻿namespace Pure.Primitives.Abstractions.Number;
 
 public interface INumber<out T> where T : System.Numerics.INumber<T>
 {

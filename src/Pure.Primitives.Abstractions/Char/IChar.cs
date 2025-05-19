@@ -1,4 +1,4 @@
-﻿namespace Pure.Primitives.Char;
+﻿namespace Pure.Primitives.Abstractions.Char;
 
 public interface IChar
 {
