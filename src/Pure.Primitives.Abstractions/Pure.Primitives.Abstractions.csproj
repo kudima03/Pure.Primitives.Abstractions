@@ -16,7 +16,7 @@
     <Version>0.1.0</Version>
     <Authors>Dmitry Kurochkin</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives.Abstractions</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
