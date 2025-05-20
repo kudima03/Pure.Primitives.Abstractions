@@ -18,9 +18,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.x.x
-    - name: Set up source
-      run: dotnet nuget add source --username kudima03 --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/kudima03/index.json"
     - name: Package
       run: dotnet pack --configuration Release -p:PackageVersion=${{ github.ref_name }} --output .
     - name: Publish
-      run: dotnet nuget push **/*.nupkg --source github
+      run: dotnet nuget push **/*.nupkg --source "https://nuget.pkg.github.com/kudima03/index.json" --api-key ${{ secrets.GITHUB_TOKEN }}
