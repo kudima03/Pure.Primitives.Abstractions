@@ -28,5 +28,5 @@ jobs:
         dotnet-version: 9.x.x
     - name: Package
       run: dotnet pack --configuration Release -p:PackageVersion=${{ github.ref_name }} --output .
-      - name: Publish package
-        run: dotnet nuget push *.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source ${{ env.PACKAGES_URL }}/${{ github.repository_owner }}/index.json
+    - name: Publish package
+      run: dotnet nuget push *.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source ${{ env.PACKAGES_URL }}/${{ github.repository_owner }}/index.json
