@@ -28,4 +28,4 @@ jobs:
     - name: Package
       run: dotnet pack --configuration Release -p:PackageVersion=${{ github.ref_name }} --output .
     - name: Publish
-      run: dotnet nuget push **/*.nupkg --source github
+      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"
