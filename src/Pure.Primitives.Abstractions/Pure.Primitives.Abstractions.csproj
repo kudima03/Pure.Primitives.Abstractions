@@ -8,6 +8,8 @@
   <ItemGroup>
     <InternalsVisibleTo Include="Pure.Primitives" />
     <InternalsVisibleTo Include="Pure.Primitives.Tests" />
+    <InternalsVisibleTo Include="Pure.Primitives.Choices" />
+    <InternalsVisibleTo Include="Pure.Primitives.Choices.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
