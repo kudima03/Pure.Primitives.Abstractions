@@ -14,6 +14,8 @@
     <InternalsVisibleTo Include="Pure.Primitives.Number.Operations.Tests" />
     <InternalsVisibleTo Include="Pure.Primitives.Bool.Operations" />
     <InternalsVisibleTo Include="Pure.Primitives.Bool.Operations.Tests" />
+    <InternalsVisibleTo Include="Pure.Primitives.String.Operations" />
+    <InternalsVisibleTo Include="Pure.Primitives.String.Operations.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
