@@ -4,5 +4,5 @@ namespace Pure.Primitives.Abstractions.Time;
 
 public interface ITime
 {
-    internal TimeOnly Value { get; }
+    internal TimeOnly Time { get; }
 }

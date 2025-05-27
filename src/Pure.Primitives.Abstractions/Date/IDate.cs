@@ -4,5 +4,5 @@ namespace Pure.Primitives.Abstractions.Date;
 
 public interface IDate
 {
-    internal DateOnly Value { get; }
+    internal DateOnly Date { get; }
 }
