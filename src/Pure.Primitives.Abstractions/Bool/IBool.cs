@@ -2,5 +2,5 @@
 
 public interface IBool
 {
-    internal bool Value { get; }
+    internal bool BoolValue { get; }
 }

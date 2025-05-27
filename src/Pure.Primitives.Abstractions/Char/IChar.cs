@@ -2,5 +2,5 @@
 
 public interface IChar
 {
-    internal char Value { get; }
+    internal char CharValue { get; }
 }
