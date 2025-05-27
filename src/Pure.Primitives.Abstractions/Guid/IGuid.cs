@@ -2,5 +2,5 @@
 
 public interface IGuid
 {
-    internal System.Guid Value { get; }
+    internal System.Guid GuidValue { get; }
 }
