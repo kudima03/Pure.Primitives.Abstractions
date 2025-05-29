@@ -16,6 +16,8 @@
     <InternalsVisibleTo Include="Pure.Primitives.Bool.Operations.Tests" />
     <InternalsVisibleTo Include="Pure.Primitives.String.Operations" />
     <InternalsVisibleTo Include="Pure.Primitives.String.Operations.Tests" />
+    <InternalsVisibleTo Include="Pure.HashCodes" />
+    <InternalsVisibleTo Include="Pure.HashCodes.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
