@@ -13,4 +13,6 @@ public interface ITime
     public INumber<ushort> Millisecond { get; }
 
     public INumber<ushort> Microsecond { get; }
+
+    public INumber<ushort> Nanoseconds { get; }
 }
