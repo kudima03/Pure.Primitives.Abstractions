@@ -20,6 +20,8 @@
     <InternalsVisibleTo Include="Pure.HashCodes.Tests" />
     <InternalsVisibleTo Include="Pure.Primitives.Random" />
     <InternalsVisibleTo Include="Pure.Primitives.Random.Tests" />
+    <InternalsVisibleTo Include="Pure.Primitives.Cached" />
+    <InternalsVisibleTo Include="Pure.Primitives.Cached.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
