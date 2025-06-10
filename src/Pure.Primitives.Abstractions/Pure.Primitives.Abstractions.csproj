@@ -22,6 +22,8 @@
     <InternalsVisibleTo Include="Pure.Primitives.Random.Tests" />
     <InternalsVisibleTo Include="Pure.Primitives.Cached" />
     <InternalsVisibleTo Include="Pure.Primitives.Cached.Tests" />
+    <InternalsVisibleTo Include="Pure.Primitives.Materialized" />
+    <InternalsVisibleTo Include="Pure.Primitives.Materialized.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
