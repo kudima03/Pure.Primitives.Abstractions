@@ -30,6 +30,8 @@
     <InternalsVisibleTo Include="Pure.Primitives.Date.Operations.Tests" />
     <InternalsVisibleTo Include="Pure.Primitives.Time.Operations" />
     <InternalsVisibleTo Include="Pure.Primitives.Time.Operations.Tests" />
+    <InternalsVisibleTo Include="Pure.Primitives.DateTime.Operations" />
+    <InternalsVisibleTo Include="Pure.Primitives.DateTime.Operations.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
