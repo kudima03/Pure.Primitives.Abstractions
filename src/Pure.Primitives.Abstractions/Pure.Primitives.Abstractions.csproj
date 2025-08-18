@@ -32,6 +32,8 @@
     <InternalsVisibleTo Include="Pure.Primitives.Time.Operations.Tests" />
     <InternalsVisibleTo Include="Pure.Primitives.DateTime.Operations" />
     <InternalsVisibleTo Include="Pure.Primitives.DateTime.Operations.Tests" />
+    <InternalsVisibleTo Include="Pure.Serialization.Json" />
+    <InternalsVisibleTo Include="Pure.Serialization.Json.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
