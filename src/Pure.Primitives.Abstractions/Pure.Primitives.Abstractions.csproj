@@ -34,6 +34,8 @@
     <InternalsVisibleTo Include="Pure.Primitives.DateTime.Operations.Tests" />
     <InternalsVisibleTo Include="Pure.Serialization.Json" />
     <InternalsVisibleTo Include="Pure.Serialization.Json.Tests" />
+    <InternalsVisibleTo Include="Pure.RelationalSchema.Random" />
+    <InternalsVisibleTo Include="Pure.RelationalSchema.Random.Tests" />
   </ItemGroup>
 
   <PropertyGroup>
