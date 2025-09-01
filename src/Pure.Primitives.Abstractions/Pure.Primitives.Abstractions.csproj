@@ -34,6 +34,8 @@
     <InternalsVisibleTo Include="Pure.Serialization.Json.Tests" />
     <InternalsVisibleTo Include="Pure.RelationalSchema.Random" />
     <InternalsVisibleTo Include="Pure.RelationalSchema.Random.Tests" />
+    <InternalsVisibleTo Include="Pure.Primitives.Switches" />
+    <InternalsVisibleTo Include="Pure.Pure.Primitives.Switches.Tests" />
   </ItemGroup>
   <PropertyGroup>
     <PackageId>Pure.Primitives.Abstractions</PackageId>
