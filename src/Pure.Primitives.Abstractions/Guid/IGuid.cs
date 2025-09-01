@@ -1,4 +1,4 @@
-﻿namespace Pure.Primitives.Abstractions.Guid;
+namespace Pure.Primitives.Abstractions.Guid;
 
 public interface IGuid
 {

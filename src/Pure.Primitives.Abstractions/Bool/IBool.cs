@@ -1,4 +1,4 @@
-﻿namespace Pure.Primitives.Abstractions.Bool;
+namespace Pure.Primitives.Abstractions.Bool;
 
 public interface IBool
 {

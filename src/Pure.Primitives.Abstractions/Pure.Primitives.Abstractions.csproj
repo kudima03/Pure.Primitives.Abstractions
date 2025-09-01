@@ -1,10 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>.net9.0</TargetFramework>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
   <ItemGroup>
     <InternalsVisibleTo Include="Pure.Primitives" />
     <InternalsVisibleTo Include="Pure.Primitives.Tests" />
@@ -37,7 +35,6 @@
     <InternalsVisibleTo Include="Pure.RelationalSchema.Random" />
     <InternalsVisibleTo Include="Pure.RelationalSchema.Random.Tests" />
   </ItemGroup>
-
   <PropertyGroup>
     <PackageId>Pure.Primitives.Abstractions</PackageId>
     <RootNamespace>Pure.Primitives.Abstractions</RootNamespace>
@@ -46,5 +43,4 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives.Abstractions</PackageProjectUrl>
   </PropertyGroup>
-
 </Project>
