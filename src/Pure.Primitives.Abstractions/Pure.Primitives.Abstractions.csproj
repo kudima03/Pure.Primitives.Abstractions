@@ -36,6 +36,8 @@
     <InternalsVisibleTo Include="Pure.RelationalSchema.Random.Tests" />
     <InternalsVisibleTo Include="Pure.Primitives.Switches" />
     <InternalsVisibleTo Include="Pure.Primitives.Switches.Tests" />
+    <InternalsVisibleTo Include="Pure.RelationalSchema.Storage.PostgreSQL" />
+    <InternalsVisibleTo Include="Pure.RelationalSchema.Storage.PostgreSQL.Tests" />
   </ItemGroup>
   <PropertyGroup>
     <PackageId>Pure.Primitives.Abstractions</PackageId>
