@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>.net9.0</TargetFramework>
     <LangVersion>latest</LangVersion>
+    <EnableAotAnalyzer>true</EnableAotAnalyzer>
   </PropertyGroup>
   <ItemGroup>
     <InternalsVisibleTo Include="Pure.Primitives" />
