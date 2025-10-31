@@ -5,5 +5,5 @@ namespace Pure.Primitives.Abstractions.String;
 
 public interface IString : IEnumerable<IChar>
 {
-    internal string TextValue { get; }
+    public string TextValue { get; }
 }
