@@ -6,42 +6,6 @@
     <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
     <EnableAotAnalyzer>true</EnableAotAnalyzer>
   </PropertyGroup>
-  <ItemGroup>
-    <InternalsVisibleTo Include="Pure.Primitives" />
-    <InternalsVisibleTo Include="Pure.Primitives.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Choices" />
-    <InternalsVisibleTo Include="Pure.Primitives.Choices.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Number.Operations" />
-    <InternalsVisibleTo Include="Pure.Primitives.Number.Operations.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Bool.Operations" />
-    <InternalsVisibleTo Include="Pure.Primitives.Bool.Operations.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.String.Operations" />
-    <InternalsVisibleTo Include="Pure.Primitives.String.Operations.Tests" />
-    <InternalsVisibleTo Include="Pure.HashCodes" />
-    <InternalsVisibleTo Include="Pure.HashCodes.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Random" />
-    <InternalsVisibleTo Include="Pure.Primitives.Random.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Cached" />
-    <InternalsVisibleTo Include="Pure.Primitives.Cached.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Materialized" />
-    <InternalsVisibleTo Include="Pure.Primitives.Materialized.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Char.Operations" />
-    <InternalsVisibleTo Include="Pure.Primitives.Char.Operations.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Date.Operations" />
-    <InternalsVisibleTo Include="Pure.Primitives.Date.Operations.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Time.Operations" />
-    <InternalsVisibleTo Include="Pure.Primitives.Time.Operations.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.DateTime.Operations" />
-    <InternalsVisibleTo Include="Pure.Primitives.DateTime.Operations.Tests" />
-    <InternalsVisibleTo Include="Pure.Serialization.Json" />
-    <InternalsVisibleTo Include="Pure.Serialization.Json.Tests" />
-    <InternalsVisibleTo Include="Pure.RelationalSchema.Random" />
-    <InternalsVisibleTo Include="Pure.RelationalSchema.Random.Tests" />
-    <InternalsVisibleTo Include="Pure.Primitives.Switches" />
-    <InternalsVisibleTo Include="Pure.Primitives.Switches.Tests" />
-    <InternalsVisibleTo Include="Pure.RelationalSchema.Storage.PostgreSQL" />
-    <InternalsVisibleTo Include="Pure.RelationalSchema.Storage.PostgreSQL.Tests" />
-  </ItemGroup>
   <PropertyGroup>
     <PackageId>Pure.Primitives.Abstractions</PackageId>
     <RootNamespace>Pure.Primitives.Abstractions</RootNamespace>
