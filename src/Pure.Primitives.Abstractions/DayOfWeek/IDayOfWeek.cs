@@ -4,5 +4,5 @@ namespace Pure.Primitives.Abstractions.DayOfWeek;
 
 public interface IDayOfWeek
 {
-    internal INumber<ushort> DayNumberValue { get; }
+    public INumber<ushort> DayNumberValue { get; }
 }
