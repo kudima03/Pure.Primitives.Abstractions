@@ -70,11 +70,3 @@ public sealed class BirthDateTime : IDateTime
     // implement IDate and ITime members
 }
 ```
-
-## License
-
-MIT — see [LICENSE.txt](LICENSE.txt) for details.
-
-## Author
-
-[Dmitry Kurochkin](https://github.com/kudima03)
