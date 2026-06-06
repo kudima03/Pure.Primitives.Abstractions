@@ -1,0 +1,3 @@
+[submodule ".claude/plugins/pure"]
+	path = .claude/plugins/pure
+	url = https://github.com/kudima03/pure-claude-plugin
