@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 # macOS
 .DS_Store
+
+# JetBrains Rider
+.idea/
