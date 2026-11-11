@@ -36,7 +36,7 @@ Each interface lives in its own subfolder matching its namespace (`Pure.Primitiv
 
 **Multi-targeting:** `net7.0`, `net8.0`, `net9.0`, `net10.0`, `net11.0`. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
 
-**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 4.3.0`. Any API-breaking change (removing a member, changing a type) will fail the build. New interfaces or members on existing interfaces must be additive.
+**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 4.4.0`. Any API-breaking change (removing a member, changing a type) will fail the build. New interfaces or members on existing interfaces must be additive.
 
 **Publishing:** triggered automatically by pushing a semver tag (e.g., `git tag 4.4.0 && git push origin 4.4.0`). The tag becomes the `PackageVersion`. Publishes to both GitHub Packages and NuGet.
 
