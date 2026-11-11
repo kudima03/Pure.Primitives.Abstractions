@@ -34,7 +34,7 @@ This is a **interfaces-only NuGet library** — no implementations, no tests, no
 
 Each interface lives in its own subfolder matching its namespace (`Pure.Primitives.Abstractions.<FolderName>`).
 
-**Multi-targeting:** `net7.0`, `net8.0`, `net9.0`, `net10.0`. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
+**Multi-targeting:** `net7.0`, `net8.0`, `net9.0`, `net10.0`, `net11.0`. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
 
 **Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 4.3.0`. Any API-breaking change (removing a member, changing a type) will fail the build. New interfaces or members on existing interfaces must be additive.
 
