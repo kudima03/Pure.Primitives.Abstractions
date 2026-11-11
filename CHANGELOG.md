@@ -6,6 +6,12 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [4.4.0] — 2026-11-11
+
+### Changed
+
+- Added `net11.0` as a target framework, alongside `net7.0`, `net8.0`, `net9.0`, and `net10.0`.
+
 ## [4.3.0] — 2025-11-13
 
 ### Changed
